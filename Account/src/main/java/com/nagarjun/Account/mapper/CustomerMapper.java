@@ -1,5 +1,6 @@
 package com.nagarjun.Account.mapper;
 
+import com.nagarjun.Account.dto.CustomerDetailsDto;
 import com.nagarjun.Account.dto.CustomerDto;
 import com.nagarjun.Account.entity.Customer;
 
@@ -11,6 +12,14 @@ public class CustomerMapper {
         customerDto.setMobileNumber(customer.getMobileNumber());
         return customerDto;
     }
+
+    public static CustomerDetailsDto mapToCustomerDetailsDto(Customer customer, CustomerDetailsDto customerDetailsDto) {
+        customerDetailsDto.setName(customer.getName());
+        customerDetailsDto.setEmail(customer.getEmail());
+        customerDetailsDto.setMobileNumber(customer.getMobileNumber());
+        return customerDetailsDto;
+    }
+
 
     public static Customer mapToCustomer(CustomerDto customerDto, Customer customer) {
         customer.setName(customerDto.getName());
