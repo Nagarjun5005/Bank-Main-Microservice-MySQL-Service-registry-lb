@@ -1,4 +1,4 @@
-# Eureka Server -- Self-Preservation
+# Eureka Server -- Self-Preservation   Default Values
 
 ## 1. What is Eureka Self-Preservation?
 
