@@ -145,7 +145,7 @@
 				<version>3.4.6</version>
 				<configuration>
 					<to>
-						<image>nagarjun20/loans:docker-mysql</image>
+						<image>nagarjun20/loans:service-registry</image>
 					</to>
 				</configuration>
 			</plugin>

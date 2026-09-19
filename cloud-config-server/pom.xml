@@ -80,7 +80,7 @@
 				<version>3.4.6</version>
 				<configuration>
 					<to>
-						<image>nagarjun20/cloud-config:docker-mysql</image>
+						<image>nagarjun20/cloud-config:service-registry</image>
 					</to>
 				</configuration>
 			</plugin>
